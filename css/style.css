@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #f4e6d9;
+}
+
+.paragraph {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+li::marker {
+    color: #7a534d
+}
+
+.btn,
+.home-btn {
+    background-color: #765364;
+    color: #FDFBF7;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-one, 
+.btn-two {
+    display: block;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.recipe-container, 
+.recipe-wrapper {
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    width: 800px;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+.image {
+    width: 800px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.txt {
+    font-size: 3rem;
+}
+
+.ing, 
+.prep {
+    color:#7a534d;
+}
+
+.txt-one {
+    margin-top: -30px;
+    padding: 0 40px;
+    line-height: 1.5;
+}
+
+.txt-two,
+.txt-three {
+    padding-right: 450px;
+    line-height: 2;
+}
+
+.txt-three {
+    padding-right: 60px;
+}
+
+.home-btn {
+    text-align: center;
+}
