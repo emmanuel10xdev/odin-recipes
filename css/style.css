@@ -8,6 +8,12 @@ body {
     background-color: #f4e6d9;
 }
 
+.hr {
+    background-color: #7a534d;
+    height: 1px;
+    width: 700px;
+}
+
 .paragraph {
     font-size: 20px;
     margin-top: -10px;
